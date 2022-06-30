@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw_15.Clear_method">
+      <class name="hw_16.Dropdown">
         <methods>
-          <include name="test"/>
-          <include name="beforeTest"/>
+          <include name="selectByValue"/>
           <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="selectByIndex"/>
+          <include name="selectByVisbleText"/>
         </methods>
-      </class> <!-- hw_15.Clear_method -->
+      </class> <!-- hw_16.Dropdown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
