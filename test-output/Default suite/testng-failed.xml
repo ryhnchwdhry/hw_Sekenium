@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw_16.Dropdown">
+      <class name="hw_17.WebDriver_manager">
         <methods>
-          <include name="selectByValue"/>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-          <include name="selectByIndex"/>
-          <include name="selectByVisbleText"/>
+          <include name="after"/>
+          <include name="set"/>
+          <include name="test05"/>
         </methods>
-      </class> <!-- hw_16.Dropdown -->
+      </class> <!-- hw_17.WebDriver_manager -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
